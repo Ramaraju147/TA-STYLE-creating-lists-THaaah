@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  background-color: rgb(249, 97, 21);
+  padding: 15px 0px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(212, 206, 167);
+}
+
+.padding {
+  padding: 20px 0px;
+}
+
+.nav a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+ol.nav {
+  list-style-type: decimal;
+  line-height: 1.9;
+}
+
+ul.card-menu {
+  list-style-type: disc;
+}
+
+ol.menu {
+  margin-left: 40px;
+  list-style-type: decimal;
+}
+
+ul.sub-menu {
+  margin-left: 40px;
+  list-style-type: square;
+}
+
+ul.card-2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.9;
+}
+
+.card-2 li:before {
+  content: "\21E8";
+  color: red;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+main .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background-color: rgb(0, 89, 121);
+  height: 430px;
+  width: 28%;
+  box-sizing: border-box;
+  padding: 30px 55px;
+  color: rgb(212, 206, 167);
+  font-size: 20px;
+  line-height: 1.5;
+  box-shadow: 5px 8px 10px black;
+}
+
+dl.padding {
+  padding-bottom: 40px;
+}
+
+dt {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+
+dd {
+  font-size: 18px;
+  padding-left: 40px;
+  color: rgb(104, 100, 79);
+}
+
+.dummy-text {
+  padding-top: 0px;
+}
+
+footer {
+  background-color: rgb(37, 44, 34);
+  padding: 30px 0px;
+}
